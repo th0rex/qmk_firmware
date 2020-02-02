@@ -30,8 +30,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_SPC, KC_BSPC, KC_END,
 
       /* Right Half */
-      KC_PSCR,   KC_6, KC_7, KC_8,    KC_9,   KC_0,            KC_BSPC,
-      KC_NO/* DE_SS */,     DE_Z, KC_U, KC_I,    KC_O,   KC_P,            DE_PLUS,
+      KC_NO/*KC_PSCR*/,   KC_6, KC_7, KC_8,    KC_9,   KC_0,            KC_BSPC,
+      DE_SS,     DE_Z, KC_U, KC_I,    KC_O,   KC_P,            DE_PLUS,
       /*      */ KC_H, KC_J, KC_K,    KC_L,   DE_HASH,         KC_ENT,
       DE_LESS,   KC_N, KC_M, DE_COMM, DE_DOT, RCTL_T(DE_MINS), KC_RSFT,
       KC_RALT, KC_RALT, KC_RALT, DE_GRV, KC_RGUI,
