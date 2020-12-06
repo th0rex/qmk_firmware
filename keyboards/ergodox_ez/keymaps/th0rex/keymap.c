@@ -19,9 +19,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_ergodox(
       /* Left Half */
       KC_ESC,  KC_1,         KC_2,    KC_3,    KC_4,   KC_5, KC_MEDIA_PLAY_PAUSE,
-      KC_TAB,  KC_Q,         KC_W,    KC_E,    KC_R,   KC_T, KC_MEDIA_NEXT_TRACK,
+      KC_TAB,  KC_Q,         KC_W,    KC_E,    KC_R,   KC_T, LCTL(KC_RIGHT),
       DE_CIRC, KC_A,         KC_S,    KC_D,    KC_F,   KC_G,
-      KC_LSFT, LALT_T(DE_Y), KC_X,    KC_C,    KC_V,   KC_B, KC_MEDIA_PREV_TRACK,
+      KC_LSFT, LALT_T(DE_Y), KC_X,    KC_C,    KC_V,   KC_B, LCTL(KC_LEFT),
       KC_LCTL, OSL(1),       DF(1),   KC_LALT, KC_RALT,
 
       /* Thumb cluster */
