@@ -45,8 +45,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       /* Left Half */
       KC_NO, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_NO,
       KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-      KC_NO, KC_NO, KC_DEL, KC_NO, KC_NO, KC_NO,
-      KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
+      KC_NO, KC_NO, KC_DEL, KC_EQUAL, KC_NO, KC_NO,
+      KC_LSFT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
       KC_LCTL, DF(0), DF(0), KC_LALT, KC_RALT,
 
       /* Thumb cluster */
