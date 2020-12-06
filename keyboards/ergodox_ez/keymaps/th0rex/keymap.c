@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       /* Thumb cluster */
       KC_LEFT, KC_RIGHT,
       KC_HOME,
-      KC_SPC, KC_BSPC, KC_END,
+      KC_SPC, KC_LCTL, KC_END,
 
       /* Right Half */
       KC_PSCR,   KC_6, KC_7, KC_8,    KC_9,   KC_0,            KC_BSPC,
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       /* Thumb cluster */
       KC_DOWN, KC_UP,
       KC_PGUP,
-      KC_PGDN, KC_TAB, KC_LGUI
+      KC_PGDN, KC_LALT, KC_LGUI
    ),
 [MISC] = LAYOUT_ergodox(
       /* Left Half */
