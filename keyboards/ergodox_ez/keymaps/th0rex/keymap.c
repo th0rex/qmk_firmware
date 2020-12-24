@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TAB,  KC_Q,         KC_W,    KC_E,    KC_R,   KC_T, LCTL(KC_RIGHT),
       DE_CIRC, KC_A,         KC_S,    KC_D,    KC_F,   KC_G,
       KC_LSFT, LALT_T(DE_Y), KC_X,    KC_C,    KC_V,   KC_B, LCTL(KC_LEFT),
-      KC_LCTL, OSL(1),       DF(1),   KC_LALT, LSFT(DE_DOT),
+      KC_LCTL, OSL(1),       DF(1),   KC_LALT, LCTL(KC_C),
 
       /* Thumb cluster */
       KC_LEFT, KC_RIGHT,
